@@ -32,7 +32,7 @@ package Lingua::ZH::PinyinConvert::ID;
     # "jyutping", "id-mandarin", or "id-cantonese".
     print join ", ", $conv->detect("I love You"); # ""
     print join ", ", $conv->detect("wo de xin");  # "hanyu"
-    print join ", ", $conv->detect("wo te sin");  # ["jyutping", "id-mandarin", "id-cantonese"]
+    print join ", ", $conv->detect("wo te sin");  # "jyutping", "id-mandarin", "id-cantonese"
 
 =head1 DESCRIPTION
 
