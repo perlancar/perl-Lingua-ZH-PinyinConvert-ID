@@ -4,6 +4,8 @@ use 5.010001;
 use strict;
 use warnings;
 
+# VERSION
+
 # notes:
 
 # * for 'w' as alternative spelling to 'u'/'o', only those occuring
