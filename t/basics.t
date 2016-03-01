@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 5+3+6+1+6;
+use Test::More 0.98;
 use Lingua::ZH::PinyinConvert::ID;
 
 my $conv = Lingua::ZH::PinyinConvert::ID->new;
@@ -49,3 +49,5 @@ my @d = (
     ["wo ai ni",       ["hanyu", "jyutping", "id-mandarin", "id-cantonese"]],
 );
 is_deeply([$conv->detect($_->[0])], $_->[1], "detect '$_->[0]'") for @d;
+
+done_testing;
