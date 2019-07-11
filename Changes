@@ -1,10 +1,10 @@
-0.04     2013-09-09 (SHARYANTO)
+0.04     2013-09-09  Released-By: SHARYANTO
 
          - No functional changes. Rebuild with MakeMaker instead of
            Module::Build because the latter is deprecated from core in 5.19.
 
 
-0.03     2010-01-20 (SHARYANTO)
+0.03     2010-01-20  Released-By: SHARYANTO
 
          - Add jyutping.
 
@@ -13,11 +13,11 @@
          - detect() now returns a list.
 
 
-0.02     2010-01-18 (SHARYANTO)
+0.02     2010-01-18  Released-By: SHARYANTO
 
          - Fix example.
 
 
-0.01     2010-01-18 (SHARYANTO)
+0.01     2010-01-18  Released-By: SHARYANTO
 
          - First release.
